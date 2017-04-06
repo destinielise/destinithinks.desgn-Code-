@@ -581,6 +581,7 @@
   -ms-flex-align: center;
   align-items: center;
   background-color: #1d1d1f;
+  z-index: 2;
 }
 
 .image-27 {
