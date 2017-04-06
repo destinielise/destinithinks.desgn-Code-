@@ -451,7 +451,7 @@
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 10%;
-  font-family: Gotham, Verdana, sans-serif;
+  font-family: 'Gotham book', sans-serif;
   color: #cb1f2a;
   font-size: 28px;
   line-height: 1.4em;
@@ -535,14 +535,14 @@
 
 .conclustion-txt {
   display: block;
-  width: 85%;
+  width: 80%;
   margin-right: auto;
   margin-left: -63px;
   padding-top: 20%;
   padding-bottom: 20%;
   padding-left: 0%;
   border-style: none;
-  font-family: Gotham, Verdana, sans-serif;
+  font-family: 'Gotham book', sans-serif;
   color: #cb1f2a;
   font-size: 28px;
   line-height: 1.4em;
@@ -588,6 +588,10 @@
   width: 100vw;
   height: 100vh;
   opacity: 1;
+}
+
+.slide-nav {
+  display: none;
 }
 
 .slider-proj {
@@ -1412,7 +1416,7 @@ html.w-mod-js *[data-ix="disappear"] {
     position: relative;
   }
   .nav-block-top {
-    width: 50%;
+    width: 100%;
     height: 100%;
     margin-right: -4px;
     padding-top: 0px;
@@ -1532,11 +1536,24 @@ html.w-mod-js *[data-ix="disappear"] {
     position: relative;
     z-index: 6;
   }
+  .next-project-txt {
+    margin-top: 5%;
+  }
   .soical-icon-txt {
     width: 138%;
   }
   .text-block-13 {
     font-size: 18px;
+  }
+  .video {
+    position: static;
+    display: block;
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .div-block {
+    width: 100vw;
   }
 }
 
@@ -1740,8 +1757,8 @@ html.w-mod-js *[data-ix="disappear"] {
   }
   .project-txt {
     top: 74%;
-    height: 20%;
-    margin-top: 3%;
+    height: auto;
+    margin-top: -2%;
   }
   .heading-2 {
     margin-bottom: 0%;
@@ -1980,6 +1997,9 @@ html.w-mod-js *[data-ix="disappear"] {
   .roads {
     height: 70vh;
   }
+  .next-project-txt {
+    margin-top: 3%;
+  }
   .soical-icon {
     width: 25%;
   }
@@ -1991,6 +2011,7 @@ html.w-mod-js *[data-ix="disappear"] {
     font-size: 20px;
   }
   .sociameadiaicons-short {
+    width: 95%;
     margin-top: -3%;
     margin-right: 13px;
     padding-top: 0px;
@@ -2179,8 +2200,12 @@ html.w-mod-js *[data-ix="disappear"] {
     margin-top: 0%;
   }
   .project-nav {
-    top: 7px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
     height: 200px;
+    margin-top: -2%;
+    margin-bottom: -2%;
   }
   .heading {
     margin-top: auto;
@@ -2393,7 +2418,8 @@ html.w-mod-js *[data-ix="disappear"] {
     background-size: auto;
   }
   .next-project-txt {
-    margin-top: 6%;
+    margin-top: 8%;
+    padding-left: 8%;
     font-size: 24px;
   }
   .nav-block-bottom {
