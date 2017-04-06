@@ -396,7 +396,7 @@
 
 .project-txt {
   position: absolute;
-  top: 136%;
+  top: 82%;
   z-index: 4;
   overflow: scroll;
   width: 100vw;
@@ -653,7 +653,7 @@
 }
 
 .background-video {
-  position: fixed;
+  position: relative;
   display: block;
   width: 115%;
   height: 100%;
@@ -1342,7 +1342,7 @@ html.w-mod-js *[data-ix="disappear"] {
     justify-content: flex-start;
   }
   .project-txt {
-    top: 129%;
+    top: 82%;
     padding-top: 0%;
   }
   .heading-2 {
