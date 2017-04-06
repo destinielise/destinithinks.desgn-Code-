@@ -396,7 +396,7 @@
 
 .project-txt {
   position: absolute;
-  top: 85%;
+  top: 136%;
   z-index: 4;
   overflow: scroll;
   width: 100vw;
@@ -451,7 +451,7 @@
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 10%;
-  font-family: 'Gotham book', sans-serif;
+  font-family: Gotham, Verdana, sans-serif;
   color: #cb1f2a;
   font-size: 28px;
   line-height: 1.4em;
@@ -542,7 +542,7 @@
   padding-bottom: 20%;
   padding-left: 0%;
   border-style: none;
-  font-family: 'Gotham book', sans-serif;
+  font-family: Gotham, Verdana, sans-serif;
   color: #cb1f2a;
   font-size: 28px;
   line-height: 1.4em;
@@ -653,6 +653,7 @@
 }
 
 .background-video {
+  position: fixed;
   display: block;
   width: 115%;
   height: 100%;
@@ -1213,7 +1214,7 @@ html.w-mod-js *[data-ix="disappear"] {
   }
   .contact-title {
     margin-bottom: 4%;
-    padding-bottom: 2%;
+    padding-bottom: 1%;
     font-family: Gotham, Verdana, sans-serif;
     font-size: 52px;
   }
@@ -1341,13 +1342,16 @@ html.w-mod-js *[data-ix="disappear"] {
     justify-content: flex-start;
   }
   .project-txt {
-    top: 85%;
+    top: 129%;
     padding-top: 0%;
   }
   .heading-2 {
     font-size: 26px;
   }
   .paragraph-2 {
+    width: 105%;
+    padding-right: 0px;
+    padding-left: 0px;
     font-size: 16px;
   }
   .opp-text {
@@ -1360,6 +1364,7 @@ html.w-mod-js *[data-ix="disappear"] {
     width: 100%;
     padding-top: 3%;
     padding-right: 34%;
+    font-family: Gotham, Verdana, sans-serif;
     font-size: 22px;
     line-height: 1.3em;
   }
@@ -1390,6 +1395,7 @@ html.w-mod-js *[data-ix="disappear"] {
     margin-left: -57px;
     padding-left: 0px;
     border-style: none;
+    font-family: Gotham, Verdana, sans-serif;
     font-size: 22px;
   }
   .nav-page {
@@ -1409,6 +1415,7 @@ html.w-mod-js *[data-ix="disappear"] {
     max-height: 100%;
   }
   .background-video {
+    position: relative;
     width: 100%;
     margin-left: 0px;
   }
