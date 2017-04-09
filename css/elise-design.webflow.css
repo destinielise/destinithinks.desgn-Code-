@@ -1845,7 +1845,7 @@ html.w-mod-js *[data-ix="disappear"] {
     margin-left: -13%;
     padding: 10% 4% 15%;
     border-style: none;
-    font-family: 'Gotham book', sans-serif;
+    font-family: Gotham, Verdana, sans-serif;
     font-size: 20px;
     line-height: 1.5em;
   }
@@ -2092,7 +2092,7 @@ html.w-mod-js *[data-ix="disappear"] {
   }
   .socialmedia-icons {
     display: block;
-    width: 75%;
+    width: 100%;
     margin-top: 10%;
     margin-right: auto;
     margin-left: auto;
@@ -2284,13 +2284,13 @@ html.w-mod-js *[data-ix="disappear"] {
     padding-left: 0%;
   }
   .conclustion-txt {
-    width: 120%;
+    width: auto;
     margin-bottom: 3%;
     margin-left: -26%;
     padding-top: 25%;
     padding-right: 2%;
     padding-left: 2%;
-    font-family: 'Gotham book', sans-serif;
+    font-family: Gotham, Verdana, sans-serif;
     font-size: 18px;
   }
   .image-27 {
@@ -2453,7 +2453,7 @@ html.w-mod-js *[data-ix="disappear"] {
     display: block;
   }
   .soical-icon {
-    width: 24%;
+    width: 18%;
   }
   .soical-icon-txt {
     display: block;
@@ -2465,9 +2465,9 @@ html.w-mod-js *[data-ix="disappear"] {
     text-align: center;
   }
   .sociameadiaicons-short {
-    width: 75%;
+    width: 90%;
     margin-top: 10%;
-    margin-left: -5%;
+    margin-left: 14%;
     padding-left: 0px;
   }
 }
