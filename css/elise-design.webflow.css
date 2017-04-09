@@ -2092,7 +2092,7 @@ html.w-mod-js *[data-ix="disappear"] {
   }
   .socialmedia-icons {
     display: block;
-    width: 90%;
+    width: 75%;
     margin-top: 10%;
     margin-right: auto;
     margin-left: auto;
@@ -2465,8 +2465,10 @@ html.w-mod-js *[data-ix="disappear"] {
     text-align: center;
   }
   .sociameadiaicons-short {
-    width: 85%;
+    width: 75%;
     margin-top: 10%;
+    margin-left: -5%;
+    padding-left: 0px;
   }
 }
 
