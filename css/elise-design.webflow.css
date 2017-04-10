@@ -1288,7 +1288,7 @@ html.w-mod-js *[data-ix="disappear"] {
     position: absolute;
     left: 0px;
     right: 0px;
-    bottom: 0px;
+    bottom: -2px;
     background-color: rgba(203, 31, 42, .9);
   }
   .text-span-2 {
