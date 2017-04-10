@@ -22,14 +22,35 @@
 <script src="../dist/js/animsition.min.js"></script>
   
     
-	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
-	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
     
+
+    
+    
+  <script>
+    var Webflow = Webflow || [];
+    Webflow.push(function() {
+      $(document).on('click', '.button', function() {
+        if(!$(this).hasClass('active')) {
+          $(this).addClass('active');
+          return false;
+        }
+      });
+    });
+    if($(window).width() < 768 && !$(this).hasClass('active')) {
+  </script>
 </head>
 <body class="body">
-  <div class="navbar w-hidden-main w-hidden-medium w-nav animsition" data-animation="over-right" data-collapse="small" data-doc-height="1" data-duration="400">
+    
+    
+    
+<!---Navigation--->     
+    
+    
+  <div class="navbar w-hidden-main w-hidden-medium w-nav" data-animation="over-right" data-collapse="small" data-doc-height="1" data-duration="400">
     <div class="container w-container">
-      <a class="brand w-nav-brand animsition-link" href="http://destinithinks.design"><img class="logo" src="images/Asset-2.png" width="304">
+      <a class="brand w-nav-brand" href="http://destinithinks.design"><img class="logo" src="images/Asset-2.png" width="304">
       </a>
       <nav class="menu w-nav-menu" role="navigation"><a class="nav-mobile-link w-nav-link" href="index.html#portfolio">explore</a><a class="nav-mobile-link w-nav-link" href="about.html">about</a><a class="nav-mobile-link w-nav-link" href="index.html#contact">contact</a>
       </nav>
@@ -76,9 +97,10 @@
   </nav>
     
     
- <!--Landing-->    
     
     
+    
+<!---landing---->    
   <div class="landing-section cd-intro">
     <div class="headline cd-headline letters rotate-3">
       <div class="home-title">
@@ -97,7 +119,9 @@
     
     
     
-<div class="portfolio-section" id="portfolio">
+    
+   <!---portfolio--->    
+  <div class="portfolio-section" id="portfolio">
     <div class="port-img-container">
       <div class="port-group">
         <a class="port-img-set w-inline-block" href="ora.html" target="_blank">
@@ -129,8 +153,12 @@
         </a>
       </div>
     </div>
+      
+      
+      
+      
+   <!---quote--->      
   </div>
-    
   <div class="quote-container">
     <div class="quote-style" data-ix="scroll">I’d call myself a workaholic,
       <br> if design ever felt like <span class="sans-red">work</span>
@@ -141,6 +169,12 @@
       <br>
       <br> Her first love is visual design, however, aesthetics are only important once the solid idea is birth. UX is the heart of true design. Satisfy the user and the rest will come.</p>
   </div>
+    
+    
+    
+    
+    
+   <!---contact--->    
   <div class="contact" id="contact">
     <div class="contact-container">
       <div class="contact-title">Let's do this</div>
@@ -159,11 +193,17 @@
   </div>
     
     
-  <script src="js/jquery-2.1.1.js"></script>
+    
+    
+<script src="js/jquery-2.1.1.js"></script>
   <script src="js/main.js"></script> <!-- Resource jQuery -->
     
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript"></script>
   <script src="js/webflow.js" type="text/javascript"></script>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+    
+    
+    
+    
 </body>
 </html>
